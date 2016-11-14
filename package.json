@@ -9,17 +9,17 @@
       "react"
     ]
   },
-  
+
   "scripts": {
     "start": "webpack -d --watch & live-server --entry-file=404.html"
   },
-  
   "author": "Svetlana Izgareva",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
+
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.5.2",
-    "current-input": "^1.1.0",
     "can-use-dom": "^0.1.0",
+    "current-input": "^1.1.0",
     "d3": "^3.5.17",
     "flux": "^2.0.1",
     "immutable": "^3.7.6",
@@ -59,6 +59,8 @@
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
     "live-server": "^1.0.0"
   }
+
 }

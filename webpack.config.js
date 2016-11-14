@@ -1,6 +1,9 @@
+var path = require('path');
+
 module.exports = {
     entry: [
-        './app/app.js'
+        './app/app.js',
+        'webpack-dev-server/client?http://localhost:8080'
     ],
     
     output: {
