@@ -10,6 +10,7 @@ import Home from './components/home';
 import UserList from './components/user-list';
 import UserProfile from './components/user-profile';
 import WidgetList from './components/widget-list';
+import LoginForm from './components/LoginForm';
 
 export default (
   <Router history={browserHistory}>
@@ -28,7 +29,9 @@ export default (
           <IndexRoute component={WidgetList} />
         </Route>
       </Route>
-
+    </Route>
+    <Route path="login" component={LoginForm}>
+      // <Route path="/" component={LoginForm} />
     </Route>
   </Router>
 

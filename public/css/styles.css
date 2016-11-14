@@ -1,4 +1,76 @@
-.app {
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #fafafa;
+	/*margin-top: -16px;*/
+}
+.app{
+	height: 99.5%;
+	width: 100%;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+  	min-height: 100%;
+  	position: relative;
+  	overflow: hidden;
+  	padding: 0px;
+	margin: 0px;
+}
+
+.app:before,
+.app:after {
+    content: " ";
+    display: table;
+}
+.app:after {
+    clear: both;
+}
+
+/*-------ГЛАВНАЯ ПАНЕЛЬ-------*/
+.left-panel{
+
+	width: 400px;
+	height: 100%;
+	border: 1px solid black;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	float: left;
+	position: fixed;
+ 	overflow: auto;
+}
+
+.left-panel{
+	width: 400px;
+	background-color: #546E7A !important;
+	float: left;
+	color: white;
+}
+.left-panel a{
+	color: white;
+}
+
+.logo{
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
+	text-align: center;
+}
+/*main{
+	float: left;
+	height: 
+}*/
+/*-----КАРТА-----*/
+.center-panel{
+	margin-left: 400px;
+	box-sizing:border-box;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	padding: 30px;
+	/*border: 1px solid white;*/
+}
+
+/*.app {
   display: flex;
 }
 
@@ -12,4 +84,4 @@ aside.primary-aside a.active {
 
 main {
   flex: 1;
-}
+}*/
